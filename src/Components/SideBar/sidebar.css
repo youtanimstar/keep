@@ -1,0 +1,12 @@
+.sidebar{
+    width: 20%;
+    height: 100%;
+    overflow: scroll;
+    background-color: var(--bg-color-dark);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}

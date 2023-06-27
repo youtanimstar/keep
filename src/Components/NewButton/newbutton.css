@@ -1,0 +1,22 @@
+.fa-plus{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /* font-size: 1px; */
+    font-weight: 600;
+    background-color: var(--bg-color);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 2px solid var(--btn-color-hover); */
+    cursor: pointer;
+    color: var(--text-color);
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 10px var(--text-color);
+}
+
+.fa-plus:hover{
+    background-color: var(--btn-color-hover);
+    color: var(--bg-color);
+}
